@@ -246,3 +246,6 @@ To open the file, use the built-in open() function. The open() function returns 
   
 - Read
   In the code snippet above, we read the content of the file using the read() method.
+
+## Python Journey
+  Our journey continues. In this part, we have learned up to Functions, NumPy, Pandas, etc. Check the file above for the complete syntax. See you in the next journey👋🏽✨
