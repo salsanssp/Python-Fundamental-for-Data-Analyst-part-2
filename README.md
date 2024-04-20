@@ -48,7 +48,7 @@ NumPy is a Python library used for **working with arrays**. It also has function
 
 > Import NumPy
 > 
-> syntax: import numpy as np
+> syntax: `import numpy as np`
 
 <div align="center"><img src="https://github.com/salsanssp/Python-for-Data-Analyst-part-2/assets/166114037/2d40ad2b-645b-4c29-a821-e4fec8a5d1e3" /></div>
 
@@ -63,7 +63,7 @@ Dimensions are groups of attributes based on columns from tables or views in a d
 
 1. 0 Dimension
 
-- syntax: a = np.array()
+- syntax: `a = np.array()`
 <div align="center"><img src="https://github.com/salsanssp/Python-for-Data-Analyst-part-2/assets/166114037/e8aa8aab-bf0b-4af2-b515-2092d29d05b9" /></div>
 
 2. 1 Dimension
@@ -78,7 +78,7 @@ Dimensions are groups of attributes based on columns from tables or views in a d
 
 ### Check Dimension
 For check dimension you can use ndim
-> syntax: print(arr.ndim)
+> syntax: `print(arr.ndim)`
 
 <div align="center"><img src="https://github.com/salsanssp/Python-for-Data-Analyst-part-2/assets/166114037/72a96572-a4e7-4baa-9642-d2bbcab91282" /></div>
 
@@ -245,7 +245,10 @@ To open the file, use the built-in open() function. The open() function returns 
 `Example Syntax : workfile = open ('stok.txt' , 'r')` 
   
 - Read
-  In the code snippet above, we read the content of the file using the read() method.
+In the code snippet above, we read the content of the file using the read() method.
+
+- Close
+Syntax for Close File : `workfile.close()`
 
 # Python Journey🐍
 Thank you for joining the Python Fundamentals for Data Analyst Part 2 adventure! We hope the materials we've provided inspire and enrich your knowledge in data analysis using Python. Stay enthusiastic in exploring the world of data, and don't hesitate to share your discoveries with the community. See you on the next journey! 🌟
